@@ -1,5 +1,5 @@
 // Only change code below this line
-let shopingList = new Map([
+let shoppingList = new Map([
   ["Banana", 3],
   ["Pineapple", 5],
   ["Pear", 2],
@@ -10,7 +10,7 @@ let shopingList = new Map([
 let arrKey = [];
 let arrValue = [];
 
-for (let col of shopingList.entries()) {
+for (let col of shoppingList.entries()) {
   arrKey.push(col[0]);
   arrValue.push(col[1]);
 }
@@ -23,9 +23,9 @@ for (let i = 0; i < arrValue.length; i++) {
   console.log(`amount: ${arrValue[i]}`);
 }
 
-for (let col of shopingList.entries()) {
+for (let col of shoppingList.entries()) {
   console.log(col);
 }
 
 // Only change code above this line
-module.exports = { shopingList, arrKey, arrValue };
+module.exports = { shoppingList, arrKey, arrValue };
